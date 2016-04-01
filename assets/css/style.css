@@ -1,0 +1,256 @@
+@import 'timeline.css';
+
+.intro-product5 {
+    background-image: url(/assets/images/solutions/overview/solution1.png);
+    background-position: 0;
+    height: 450px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-product2 {
+    height: 450px !important;
+    background-size: cover;
+}
+
+.intro-product2 #overview-title2 {
+    height: 100%;
+}
+
+#intro-title2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#intro-title2 h2 {
+    margin: 0;
+    font-size: 30px;
+    padding: 20px 0
+}
+
+#intro-title-contact{
+    background-color: rgba(1, 2, 2, 0.9);
+}
+
+.section-padding {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.overview-title {
+    position: relative;
+    background-color: rgba(1, 2, 2, 0.69);
+    height: 303px;
+}
+
+.layout-timeline ul.timeline > li .date {
+    font-size: 11px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.banda {
+    width: 100%;
+}
+
+#footer .appbrand {
+    position: static !important;
+}
+
+#footer .appbrand a {
+    color: #5ab032 !important;
+    font-size: 23px;
+}
+
+.contact-map{
+    height: 450px;
+    border-right: 1px solid #ccc
+}
+
+.contact-location {
+    position: absolute;
+    bottom: 135px;
+    right: 8px;
+    background-color: #5ab032;
+    color: white;
+    font-weight: bold;
+    font-size: 17px !important;
+    padding: 7px 15px 4px 45px;
+}
+
+.contact-location p {
+    margin-bottom: 0;
+    line-height: 37px;
+}
+
+.contact-location .fa {
+    position: absolute;
+    left: 15px
+}
+
+.contact-circle {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    color: white !important;
+    background-color: #4d4d4d;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-circle .fa {
+    line-height: 100px;
+}
+
+#intro-title-contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: auto
+}
+
+.contact-item {
+    display: block;
+}
+
+.contact-info {
+    min-height: 50px;
+    text-align: center;
+    color: #4d4d4d
+}
+
+.contact-info h2 {
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+.contact-item:hover {
+    text-decoration: none;
+}
+
+.contact-item:hover .contact-info * {
+    color: #111
+}
+
+.contact-item:hover .contact-circle {
+    background-color: #5ab032
+}
+
+.contact-item:hover .contact-circle .fa {
+    font-size: 420% !important;
+}
+
+.section-padding {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.title-black-feature h2 {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.title-black-feature h2 .small, .title-black-feature h2 small {
+    font-size: 50%;
+}
+
+.title-black-feature p {
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+
+#msg1 i {
+    top: auto;
+    line-height: 37px;
+}
+
+#intro-title .flow{
+    height: 227px;
+}
+
+.well-light{
+    background: #fff;
+}
+
+@media (max-width: 450px) {
+    .contact-map{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .layout-timeline ul.timeline > li .date {
+        margin: 0;
+    }
+
+    .layout-timeline ul.timeline > li.active .type {
+        display: none;
+    }
+
+    .glyphicons.single + .single, .glyphicons-social.single + .single {
+        margin: 0;
+    }
+
+    #footer {
+        height: 450px !important;
+    }
+
+    #footer .copy {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #footer {
+        height: 330px !important;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .section-padding {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .overview h2 {
+        font-size: 30px;
+        padding: 20px 0 !important;
+        margin: 0;
+    }
+
+    .overview-title {
+        height: 100%
+    }
+
+    .overview p {
+        font-size: 16px !important;
+        padding-bottom: 10px;
+        color: #eee !important;
+    }
+
+    .intro-product {
+        height: 440px !important;
+    }
+
+    .title-black-feature h2 {
+        font-size: 28px !important;
+        margin-top: 0;
+    }
+
+    .title-black-feature p {
+        padding: 0;
+    }
+
+    .title-bottom {
+        margin-bottom: 20px !important;
+    }
+
+    .var-title {
+        margin-bottom: 15px;
+    }
+
+}
