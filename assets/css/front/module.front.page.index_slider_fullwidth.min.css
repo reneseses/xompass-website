@@ -208,7 +208,7 @@ html.front #footer{height:auto;line-height:20px;background:#000000;color:#919192
 html.front #footer a{color:#5ab032;text-decoration:none}html.front #footer .copy{color:#efefef;text-align:left}
 html.front #footer .copy .appbrand{position:absolute;right:10px;text-transform:uppercase;font-size:15px;font-weight:700}
 html.front #footer .box-generic{background:#191a1c;border:none}
-html.front #footer h4{text-transform:uppercase;font-size:15px;font-weight:700;text-shadow:none;color:#fff;margin:0 0 8px}
+html.front #footer h4{text-transform:uppercase;font-size:14px;font-weight:700;text-shadow:none;color:#fff;margin:35px 0 8px}
 html.front #footer ul{list-style:none;margin:0 0 15px;padding:0}
 html.front #footer ul li{display:block;background:#191a1c;margin:0 0 1px;line-height:30px;height:30px}
 html.front #footer ul li a{line-height:30px;height:30px;display:block;padding:0 10px}
@@ -491,17 +491,12 @@ h2.no-padding-title2{padding: 0% 0 2% 0 !important;}
 #landing_noticias{height: 350px;padding-top: 50px; background: #ffffff}
 #landing_noticias .stripes{background: url(/assets/images/hero_bg-stripes-light.png) top center repeat-x !important;}
 #footer .copy h4{padding-bottom: 10px;}
-#footer .logo-footer{padding-left: 75px;padding-top: 29px;}
-#footer .logo-footer p{font-size:10px; color: #999; padding: 0 0px 0 10px;}
-#footer .logo-footer .reserved{margin-top: -10px !important;}
 #footer .menu a{font-weight: 400;font-size:13px; color:#999 !important;}
 #footer .dependencia{margin-top: -15px !important;}
 #footer{position: relative !important;height: 250px !important;}
 #footer .hidden-lg, #footer.hidden-md{position: relative !important;height: 530px !important;}
 #footer .logos{ }
-#footer .banda{height: 250px;top: 0;background-image: url(/assets/images/footer/banda.svg);background-repeat: no-repeat;position: absolute;bottom: 0;right: 0;}
-.footer-small .row{padding-top: 15px; padding-bottom: 15px;}
-.banda-small{height: 255px;top: 0;background-image: url(/assets/images/footer/banda.svg);background-repeat: no-repeat;}
+
 
 #footer .banda ul li{background: transparent !important; font-weight: 400;font-size: 13px;color: #999 !important;}
 #footer .banda-small ul li{background: transparent !important; font-weight: 400;font-size: 13px;color: #999 !important;}
@@ -743,4 +738,22 @@ html.front.top-full .navbar.main{border: none !important;}
 	margin: 10px;
     height: 430px;
     width: 100%;
+}
+
+.web-link{
+	color: #5ab032 !important;
+}
+
+.background-link{
+	background-color: #5ab032 !important;
+	color: white !important;
+}
+
+.web-link:hover{
+	text-decoration: underline !important;
+}
+
+
+.background-link:hover{
+	background-color: rgba(90, 176, 50, 0.73) !important;
 }

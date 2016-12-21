@@ -62,7 +62,8 @@
 
 #footer .appbrand a {
     color: #5ab032 !important;
-    font-size: 23px;
+    font-size: 40px;
+    padding: 8%;
 }
 
 .contact-map{
@@ -180,6 +181,7 @@
     background: #fff;
 }
 
+
 @media (max-width: 450px) {
     .contact-map{
         display: none;
@@ -208,9 +210,9 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) {
     #footer {
-        height: 330px !important;
+        height: 300px !important;
     }
 }
 
@@ -259,3 +261,4 @@
     }
 
 }
+
