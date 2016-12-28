@@ -22,331 +22,294 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="assets/javascript/scrollup/jquery.scrollUp.js"></script>
-    <script src="assets/javascript/script-home.js"></script>
 
     <link type="text/css" href="assets/css/custom_bs.css" rel="stylesheet">
     <link type="text/css" href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>   
-            <a class="navbar-brand" href="/">
-                <div class="brand-logo"></div>
-            </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a class="web-link" href="http://faas.xompass.com" target="_blank"">Sign In</a></li>
-                <li><a class="background-link" href="free-trial.html">Try</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-<div class="container-fluid menu-hidden">
-    <!-- Content -->
-    <div id="content">
-        <section style="position: relative" class="hidden-xs">
-            <div class="row row-nospace" >
-                <div class="col-sm-6">
-                    <div class="contact-map" id="contact_gmap"></div>
-                    <div class="contact-location hidden-xs hidden-sm">
-                        <p>
-                            <i class="fa fa-2x fa-map-marker"></i>
-                            Chile: Avenida España 1680, Valparaíso
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="contact-map contact-map-right" id="contact_gmap2"></div>
-                    <div class="contact-location hidden-xs hidden-sm">
-                        <p>
-                            <i class="fa fa-2x fa-map-marker"></i>
-                            US: 330 Waverley St. Palo Alto, CA 94301
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="intro-title-contact" class="form-backgroundblack text-center">
-                <h2 class="text-white" style="margin: 0; line-height: 119px">We Want To Hear From You </h2>
-            </div>
-        </section>
-        <!--
-        <div class="hidden-lg hidden-md hidden-sm">
-            <address class="text-center" style="padding-top: 20px">
-                <strong>Avenida España 1680</strong><br>
-                Valparaíso, Chile
-            </address>
-            <address class="text-center">
-                <strong>330 Waverley St.</strong><br>
-                Palo Alto,CA 94301, United States
-            </address>
-        </div> -->
-
-        <!-- /Section: OVERVIEW -->
-        <div class="container section-padding">
-            <div class="row row-contact">
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="mailto:contact@xompass.com" class="contact-item">
-                        <div class="contact-circle">
-                            <i class="fa fa-envelope fa-4x"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>EMAIL</h2>
-                            <p>contact@xompass.com</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="#" class="contact-item">
-                        <div class="contact-circle" style="line-height: 107px">
-                            <i class="fa fa-phone fa-4x"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>PHONE</h2>
-                            <p>(+1) 650 741 1299</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="https://app.xompass.com" target="_blank" class="contact-item">
-                        <div class="contact-circle">
-                            <i class="fa fa-line-chart fa-4x" style="font-size: 3.7em;"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>PROJECT</h2>
-                            <p>Launch it</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="https://twitter.com/xompass" target="_blank" class="contact-item">
-                        <div class="contact-circle">
-                            <i class="fa fa-twitter fa-4x"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>TWITTER</h2>
-                            <p>Follow us</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="#" class="contact-item">
-                        <div class="contact-circle">
-                            <i class="fa fa-skype fa-4x"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>SKYPE</h2>
-                            <p>Call us</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <a href="https://www.linkedin.com/company/xompass" target="_blank" class="contact-item">
-                        <div class="contact-circle">
-                            <i class="fa fa-linkedin fa-4x"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h2>LINKEDIN</h2>
-                            <p>Follow us</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- /Section: OVERVIEW -->
-        <div class="background-color section-padding">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8">
-                        <form id="feedbackForm" style="margin: 0" class="well well-light">
-                            <fieldset>
-                                <legend>Send us Feedback</legend>
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" name="name"
-                                                   placeholder="YOUR NAME">
-                                            <span class="help-block" style="display: none;">Please enter your name.</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="email" name="email"
-                                                   placeholder="EMAIL">
-                                            <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" name="message" rows="7"
-                                              placeholder="YOUR MESSAGE"></textarea>
-                                    <span class="help-block" style="display: none;">Please enter a message.</span>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-md-6 text-center">
-                                            <img id="captcha" src="assets/mail/vender/securimage/securimage_show.php" style="height: 74px;"
-                                                 alt="CAPTCHA Image"/>
-                                            <a href="#"
-                                               onclick="document.getElementById('captcha').src = 'assets/mail/vender/securimage/securimage_show.php?' + Math.random(); return false"
-                                               class="btn btn-info btn-sm">Show a Different Image</a>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" class="form-control" name="captcha_code"
-                                                   id="captcha_code" style="margin-top: 20px"
-                                                   placeholder="Please enter the code displayed in the box."/>
-                                            <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
-                                            <span class="help-block" style="display: none;">Please enter a the security code.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg pull-right">Send Feedback </button>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                    <?php
-					if($sendit){echo "Mensaje enviado correctamente";}
-					else{ echo "Email failed to send";}?>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <div class="brand-logo"></div>
+                    </a>
+                    <a id="menu-icon" class="visible-m" href="#"><img src="assets/images/header/menu-icon.svg" height="13" width="28" alt="samsara"></a>
                 </div>
+                <div id="main-nav" class="hidden-m">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="products.html">Products</a>
+                            <ul class="nav-drop ">
+                                <li ><a href="products.html">Overview</a></li>
+                                <li ><a href="products/features.html">Features</a></li>
+                                <li ><a href="products/pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="solutions.html">Solutions</a>
+                            <ul class="nav-drop">
+                                <li ><a href="solutions/water.html">Water</a></li>
+                                <li ><a href="solutions/mining.html">Mining</a></li>
+                                <li ><a href="solutions/power.html">Power</a></li>
+                                <li ><a href="solutions/datacenter.html">Datacenter</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="support.html">Resources</a>
+                            <ul class="nav-drop">
+                                <li ><a href="support.html">Support</a></li>
+                                <li ><a href="documents/pdf/privacy.pdf">Privacy</a></li>
+                                <li ><a href="documents/pdf/terms-of-use.pdf">Terms of Use</a></li>
+                            </ul>
+                        </li>
+                        <li > 
+                            <a href="about-us.html">Company</a>
+                            <ul class="nav-drop">
+                                <li ><a href="about-us.html">About Us</a></li>
+                                <li ><a href="advisory-board.html">Advisory Board</a></li>
+                                <li ><a href="partners.html">Partners</a></li>
+                                <li ><a href="news.html">News</a></li>
+                                <li ><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="web-link" href="http://faas.xompass.com" target="_blank"">Sign In</a></li>
+                        <li><a class="background-link" href="free-trial.html">Try</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
             </div>
-        </div>
-    </div>
-       <!-- FOOTER -->
-    <div id="footer" class="hidden-print">
+        </nav>
+    </header>
+    <nav id="mobile-nav" class="visible-m" style="display: none;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-9" style="margin-bottom: 25px">
+          <ul class="list-flat">
+            <li><a href="/products">Products</a></li>
+            <li><a href="/solutions/fleet">Solutions</a></li>
+            <li><a href="/security">Resources</a></li>
+            <li><a href="/about">Company</a></li>
+            <li><a class="web-link" href="http://faas.xompass.com">Sign In</a></li>
+            <li><a class="background-link" href="free-trial.html">Try</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- Content -->
+        <div id="content" class="content-padding">
+             <div class="section-padding">
+                <div class="container">
                     <div class="row">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">
-                                <h4>PRODUCTS</h4>
-                                <a href="how-is-work.html">Overview</a><br>
-                                <a href="how-is-work.html">Features</a><br>
-                                <a href="how-is-work.html">Pricing</a><br> 
+                        <div class="col-sm-6"> 
+                            <h1>Try Xompass</h1> 
+                              <p>Try Xompass in your environment at no cost. We'll send you brand-new Samsara equipment to test, complete with cellular data connectivity and a fully-functional license for the Samsara cloud service. There's no commitment, and no up-front payment required. If Samsara is not the right fit for you, just send the gear back - even the return shipping is on us.</p>
+                              <p>Qualified customers are typically evaluating products for a business need. If you're interested, please get in touch for details. </p>
                             </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">
-                                <h4>SOLUTIONS</h4>
-                                <a href="solutions.html">Xompass Water</a><br>
-                                <a href="solutions.html">Xompass Mining</a><br>
-                                <a href="solutions.html">Xompass Power</a><br>
-                                <a href="solutions.html">Xompass Datacenters</a><br> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">  
-                                <h4>Resources</h4>
-                                <a href="solutions.html">Support</a><br>
-                                <a href="solutions.html">Knowledge Base</a><br>
-                                <a href="solutions.html">Privacy</a><br>
-                                <a href="solutions.html">Terms of Use</a><br>
-                            </div>
-                        </div>
+                        <div class="col-sm-6">
+                            <form id="feedbackForm">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="name" name="name"
+                                                       placeholder="First Name*">
+                                                <span class="help-block" style="display: none;">Please enter your first name.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="last-name" name="last-name"
+                                                       placeholder="Last Name*">
+                                                <span class="help-block" style="display: none;">Please enter your last name.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" name="email"
+                                                       placeholder="Email*">
+                                                <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="phone" name="phone"
+                                                       placeholder="Phone Number*">
+                                                <span class="help-block" style="display: none;">Please enter your phone number.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="company" name="company"
+                                                       placeholder="First Company / Organization Name*">
+                                                <span class="help-block" style="display: none;">Please enter your Company / Organization Name*</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="job" name="job"
+                                                       placeholder="Job Title*">
+                                                <span class="help-block" style="display: none;">Please enter your job title.</span>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu"> 
-                                <h4>Company</h4>
-                                <a href="solutions.html">About Us</a><br>
-                                <a href="solutions.html">Advisory Board</a><br>
-                                <a href="solutions.html">Partners</a><br>
-                                <a href="solutions.html">Contact Us</a><br>
+
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" name="message" rows="7"
+                                                  placeholder="Please tell us about your interest in Xompass"></textarea>
+                                        <span class="help-block" style="display: none;">Please enter a message.</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-6 text-center">
+                                                <img id="captcha" src="../assets/mail/vender/securimage/securimage_show.php" style="height: 74px;"
+                                                     alt="CAPTCHA Image"/>
+                                                <a href="#"
+                                                   onclick="document.getElementById('captcha').src = '../assets/mail/vender/securimage/securimage_show.php?' + Math.random(); return false"
+                                                   class="btn btn-info btn-sm">Show a Different Image</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" name="captcha_code"
+                                                       id="captcha_code" style="margin-top: 20px"
+                                                       placeholder="Please enter the code displayed in the box."/>
+                                                <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
+                                                <span class="help-block" style="display: none;">Please enter a the security code.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg pull-right">Send Feedback </button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <?php
+                        if($sendit){echo "Mensaje enviado correctamente";}
+                        else{ echo "Email failed to send";}?>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <!-- // Content END -->
+
+        <!-- FOOTER -->
+        <div id="footer" class="hidden-print">
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-xs-12 col-md-9" style="margin-bottom: 25px">
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">
+                                    <h4>PRODUCTS</h4>
+                                    <a href="products.html">Overview</a><br>
+                                    <a href="products/features.html">Features</a><br>
+                                    <a href="products/pricing.html">Pricing</a><br> 
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">
+                                    <h4>SOLUTIONS</h4>
+                                    <a href="solutions/water.html">Water</a><br>
+                                    <a href="solutions/mining.html">Mining</a><br>
+                                    <a href="solutions/power.html">Power</a><br>
+                                    <a href="solutions/datacenter.html">Datacenters</a><br> 
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">  
+                                    <h4>Resources</h4>
+                                    <a href="support.html">Support</a><br>
+                                    <a href="documents/pdf/privacy.pdf">Privacy</a><br>
+                                    <a href="documents/pdf/terms-of-use.pdf">Terms of Use</a><br>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu"> 
+                                    <h4>Company</h4>
+                                    <a href="about-us.html">About Us</a><br>
+                                    <a href="advisory-board.html">Advisory Board</a><br>
+                                    <a href="partners.html">Partners</a><br>
+                                    <a href="news.html">News</a><br>
+                                    <a href="contact.html">Contact Us</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top:20px;">
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-linkedin"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-twitter"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-facebook"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-youtube"> </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style="padding-top:20px;">
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-linkedin"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-twitter"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-facebook"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-youtube"> </a>
-                            </span>
+                    <div  class="col-xs-12 col-md-3 hidden-footer">
+                        <div class="row">
+                            <div class="col-md-3" style="background-color: #5ab032 !important;     height: 300px; position: relative;">
+                                <embed type="image/svg+xml" style="position: absolute; bottom: 85px" src="assets/images/footer/banda.svg"/>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="logo-footer">
+                                    <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/footer/logo-footer.svg" style="margin-top: 170px;"/>
+                                    <p>© 2014- 2017 Xompass, Inc.</p>
+                                    <p class="reserved">All Rights Reserved.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div  class="col-xs-12  col-md-3">
-                    <div class="row">
-                        <div class="col-md-3" style="background-color: #5ab032 !important;     height: 300px; position: relative;">
-                            <embed type="image/svg+xml" style="position: absolute; bottom: 85px" src="assets/images/footer/banda.svg"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="logo-footer">
-                                <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/footer/logo-footer.svg" style="margin-top: 170px;"/>
-                                <p>© 2014- 2017 Xompass, Inc.</p>
-                                <p class="reserved">All Rights Reserved.</p>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/Logos/logo-mini.svg" style="height: 50px" />
+                    </div>
+                    <div class="col-xs-6">
+                        <p style="font-size: 12px">© 2014- 2017 Xompass, Inc.</p>
+                        <p style="font-size: 12px">All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- // Footer END -->
     </div>
-    <!-- // Footer END -->
-</div>
-<!-- // Main Container Fluid END -->
+    <!-- // Main Container Fluid END -->
 
-<script>
-    $(function () {
-        var width = $("#intro").width();
+    <!-- JS -->
+    <script src="assets/javascript/script-home.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        $(window).resize(function () {
-            var nw = $("#intro").width();
+        ga('create', 'UA-52745700-1', 'auto');
+        ga('send', 'pageview');
 
-            if (nw < 1280)
-                $("#intro").height(Math.floor(nw / width * 420));
-            else
-                $("#intro").height(420);
-        })
-    })
-</script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-52745700-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<a class="w-toplink active" href="#"><i class="fa fa-angle-up"></i></a>
+    </script>
+    <!-- JS -->
+    <a class="w-toplink active" href="#"><i class="fa fa-angle-up"></i></a>
 </body>
 </html>
