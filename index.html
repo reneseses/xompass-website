@@ -22,311 +22,347 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="assets/javascript/scrollup/jquery.scrollUp.js"></script>
-    <script src="assets/javascript/script-home.js"></script>
 
     <link type="text/css" href="assets/css/custom_bs.css" rel="stylesheet">
     <link type="text/css" href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>   
-            <a class="navbar-brand" href="/">
-                <div class="brand-logo"></div>
-            </a>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <div class="brand-logo"></div>
+                    </a>
+                    <a id="menu-icon" class="visible-m" href="#"><img src="assets/images/header/menu-icon.svg" height="13" width="28" alt="samsara"></a>
+                </div>
+                <div id="main-nav" class="hidden-m">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="products.html">Products</a>
+                            <ul class="nav-drop ">
+                                <li ><a href="products.html">Overview</a></li>
+                                <li ><a href="products/features.html">Features</a></li>
+                                <li ><a href="products/pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="solutions.html">Solutions</a>
+                            <ul class="nav-drop">
+                                <li ><a href="solutions/water.html">Water</a></li>
+                                <li ><a href="solutions/mining.html">Mining</a></li>
+                                <li ><a href="solutions/power.html">Power</a></li>
+                                <li ><a href="solutions/datacenter.html">Datacenter</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="support.html">Resources</a>
+                            <ul class="nav-drop">
+                                <li ><a href="support.html">Support</a></li>
+                                <li ><a href="documents/pdf/privacy.pdf">Privacy</a></li>
+                                <li ><a href="documents/pdf/terms-of-use.pdf">Terms of Use</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="about-us.html">Company</a>
+                            <ul class="nav-drop">
+                                <li ><a href="about-us.html">About Us</a></li>
+                                <li ><a href="advisory-board.html">Advisory Board</a></li>
+                                <li ><a href="partners.html">Partners</a></li>
+                                <li ><a href="news.html">News</a></li>
+                                <li ><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="web-link" href="http://faas.xompass.com" target="_blank"">Sign In</a></li>
+                        <li><a class="background-link" href="free-trial.html">Try</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+    </header>
+    <nav id="mobile-nav" class="visible-m" style="display: none;">
+        <div class="container">
+          <ul class="list-flat">
+            <li><a href="/products">Products</a></li>
+            <li><a href="/solutions/fleet">Solutions</a></li>
+            <li><a href="/security">Resources</a></li>
+            <li><a href="/about">Company</a></li>
+            <li><a class="web-link" href="http://faas.xompass.com">Sign In</a></li>
+            <li><a class="background-link" href="free-trial.html">Try</a></li>
+          </ul>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a class="web-link" href="http://faas.xompass.com" target="_blank"">Sign In</a></li>
-                <li><a class="background-link" href="free-trial.html">Try</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-<div class="container-fluid">
-    <!-- Content -->
-    <div id="content">
-        <div id="mainCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel"> 
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">     
-                    <img class="second-slide" src="assets/images/home/slider/Slider-01.png" alt="Second slide">
-                    <div class="carousel-caption">
-                        <div class="row">
-                            <div class="col-ms-6 col-xs-6">
-                            <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #302fffffff32;">Solve the gap between Instrumentation (IOT) and Insight (Analytics)</h2>
-                            <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold; margin-bottom:40%">Try for Free</a>
-                            </div>
-                            <div class="col-ms-6 col-xs-6">
+    </nav>
+    <div class="container-fluid">
+        <!-- Content -->
+        <div id="content">
+            <div id="mainCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel"> 
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">     
+                        <img class="second-slide" src="assets/images/home/slider/Slider-01.png" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-ms-6 col-xs-6">
+                                <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #302fffffff32;">Solve the gap between Instrumentation (IOT) and Insight (Analytics)</h2>
+                                <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold; margin-bottom:40%">Try for Free</a>
+                                </div>
+                                <div class="col-ms-6 col-xs-6">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <img class="second-slide" src="assets/images/home/slider/Slider-02.png" alt="Second slide">
-                    <div class="carousel-caption">
-                        <div class="row">
-                            <div class="col-ms-6 col-xs-6">
-                                <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff;">Xompass FaaS – Industry’s first SaaS product that accelerates IOT and Analytics for Industry 
-</h2>
-                                <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold; margin-bottom:40%;">Learn More</a>
-                            </div>
-                            <div class="col-ms-6 col-xs-6">
+                    <div class="item">
+                        <img class="second-slide" src="assets/images/home/slider/Slider-02.png" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-ms-6 col-xs-6">
+                                    <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff;">Xompass FaaS – Industry’s first SaaS product that accelerates IOT and Analytics for Industry 
+    </h2>
+                                    <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold; margin-bottom:40%;">Learn More</a>
+                                </div>
+                                <div class="col-ms-6 col-xs-6">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--
-                <div class="item">
-                    <img class="third-slide" src="assets/images/home/slider/example-1.png" style="width: 100%" alt="Third slide">
-                    <div class="container">
+                    <!--
+                    <div class="item">
+                        <img class="third-slide" src="assets/images/home/slider/example-1.png" style="width: 100%" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <div class="">
+                                    <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff; margin-bottom:30px">Implement IOT and Advanced Analytics in Minutes </h2>
+                                    <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold;">How it Works</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    -->
+                    <div class="item">
+                        <img class="fourth-slide" src="assets/images/home/slider/Slider-03.png" style="width: 100%" alt="Fourth slide">
                         <div class="carousel-caption">
                             <div class="">
-                                <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff; margin-bottom:30px">Implement IOT and Advanced Analytics in Minutes </h2>
-                                <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold;">How it Works</a>
+                                <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff; margin-bottom:30px">See how our customers made IOT a reality </h2>
+                                <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold;margin-bottom:15% ">See Customer Stories</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!-- Indicators
+                <ol class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1" class=""></li>
+                    <li data-target="#mainCarousel" data-slide-to="2" class=""></li>
+                    <li data-target="#mainCarousel" data-slide-to="3" class=""></li>
+                </ol> -->
+            </div>
 
-                -->
-                <div class="item">
-                    <img class="fourth-slide" src="assets/images/home/slider/Slider-03.png" style="width: 100%" alt="Fourth slide">
-                    <div class="carousel-caption">
-                        <div class="">
-                            <h2 style="font-weight: bold;font-size: 22px; line-height: 30px; color: #ffffff; margin-bottom:30px">See how our customers made IOT a reality </h2>
-                            <a href="contact.html" class="btn btn-lg background-link" style="font-size: 20px; font-weight: bold;margin-bottom:15% ">See Customer Stories</a>
+            <!-- Section: #mensaje inicial -->
+            <section id="slider-mini" class=" hidden-md hidden-lg">
+                <div class="">
+                    <img style="width:100%" src="assets/images/home/slider/slider-4-mini.png"/>
+                </div>
+            </section>
+           
+
+
+            <!-- Section: CONTACTS 
+            <section id="partners" class="form background-topline background-color">
+                <div class="container">
+                    <div class="title-black box-green-spam">
+                        <h2 class="text-center">Our Partners</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+                            <div class="row text-center">
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="http://www.osisoft.com/" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/osisoft.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="https://www.microsoft.com/" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/microsoft.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="http://www.prosoft-technology.com/" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/prosoft.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="http://www.cisco.com/" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/cisco.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="http://plugandplaytechcenter.com" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/plugandplay.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div>
+                                        <a href="http://www.cctval.cl" target="_blank">
+                                            <div class="thumbnail">
+                                                <img src="assets/icon/partners/cctval.png" class="img-responsive"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-            </div>
-            <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            <!-- Indicators
-            <ol class="carousel-indicators">
-                <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#mainCarousel" data-slide-to="1" class=""></li>
-                <li data-target="#mainCarousel" data-slide-to="2" class=""></li>
-                <li data-target="#mainCarousel" data-slide-to="3" class=""></li>
-            </ol> -->
+            </section> -->
+
         </div>
+        <!-- // Content END -->
 
-        <!-- Section: #mensaje inicial -->
-        <section id="slider-mini" class=" hidden-md hidden-lg">
-            <div class="">
-                <img style="width:100%" src="assets/images/home/slider/slider-4-mini.png"/>
-            </div>
-        </section>
-       
-
-
-        <!-- Section: CONTACTS 
-        <section id="partners" class="form background-topline background-color">
+        <!-- FOOTER -->
+        <div id="footer" class="hidden-print">
             <div class="container">
-                <div class="title-black box-green-spam">
-                    <h2 class="text-center">Our Partners</h2>
+                <div class="row"> 
+                    <div class="col-xs-12 col-md-9" style="margin-bottom: 25px">
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">
+                                    <h4>PRODUCTS</h4>
+                                    <a href="products.html">Overview</a><br>
+                                    <a href="products/features.html">Features</a><br>
+                                    <a href="products/pricing.html">Pricing</a><br> 
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">
+                                    <h4>SOLUTIONS</h4>
+                                    <a href="solutions/water.html">Water</a><br>
+                                    <a href="solutions/mining.html">Mining</a><br>
+                                    <a href="solutions/power.html">Power</a><br>
+                                    <a href="solutions/datacenter.html">Datacenters</a><br> 
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu">  
+                                    <h4>Resources</h4>
+                                    <a href="support.html">Support</a><br>
+                                    <a href="documents/pdf/privacy.pdf">Privacy</a><br>
+                                    <a href="documents/pdf/terms-of-use.pdf">Terms of Use</a><br>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="copy menu"> 
+                                    <h4>Company</h4>
+                                    <a href="about-us.html">About Us</a><br>
+                                    <a href="advisory-board.html">Advisory Board</a><br>
+                                    <a href="partners.html">Partners</a><br>
+                                    <a href="news.html">News</a><br>
+                                    <a href="contact.html">Contact Us</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top:20px;">
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-linkedin"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-twitter"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-facebook"> </a>
+                                </span>
+                            </div>
+                            <div class="col-ms-3 col-xs-6">
+                                <span class="appbrand logos" >
+                                        <a href="https://www.linkedin.com/company/xompass" class="fa fa-youtube"> </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="col-xs-12 col-md-3 hidden-footer">
+                        <div class="row">
+                            <div class="col-md-3" style="background-color: #5ab032 !important;     height: 300px; position: relative;">
+                                <embed type="image/svg+xml" style="position: absolute; bottom: 85px" src="assets/images/footer/banda.svg"/>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="logo-footer">
+                                    <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/footer/logo-footer.svg" style="margin-top: 170px;"/>
+                                    <p>© 2014- 2017 Xompass, Inc.</p>
+                                    <p class="reserved">All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-                        <div class="row text-center">
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="http://www.osisoft.com/" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/osisoft.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="https://www.microsoft.com/" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/microsoft.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="http://www.prosoft-technology.com/" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/prosoft.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="http://www.cisco.com/" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/cisco.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="http://plugandplaytechcenter.com" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/plugandplay.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-xs-6">
-                                <div>
-                                    <a href="http://www.cctval.cl" target="_blank">
-                                        <div class="thumbnail">
-                                            <img src="assets/icon/partners/cctval.png" class="img-responsive"/>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-xs-6">
+                        <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/Logos/logo-mini.svg" style="height: 50px" />
                     </div>
-                </div>
-
-            </div>
-        </section> -->
-
-    </div>
-    <!-- // Content END -->
-
-    <!-- FOOTER -->
-    <div id="footer" class="hidden-print">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9" style="margin-bottom: 25px">
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">
-                                <h4>PRODUCTS</h4>
-                                <a href="how-is-work.html">Overview</a><br>
-                                <a href="how-is-work.html">Features</a><br>
-                                <a href="how-is-work.html">Pricing</a><br> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">
-                                <h4>SOLUTIONS</h4>
-                                <a href="solutions.html">Water</a><br>
-                                <a href="solutions.html">Mining</a><br>
-                                <a href="solutions.html">Power</a><br>
-                                <a href="solutions.html">Datacenters</a><br> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu">  
-                                <h4>Resources</h4>
-                                <a href="solutions.html">Support</a><br>
-                                <a href="solutions.html">Knowledge Base</a><br>
-                                <a href="solutions.html">Privacy</a><br>
-                                <a href="solutions.html">Terms of Use</a><br>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="copy menu"> 
-                                <h4>Company</h4>
-                                <a href="solutions.html">About Us</a><br>
-                                <a href="solutions.html">News</a><br>
-                                <a href="solutions.html">Advisory Board</a><br>
-                                <a href="solutions.html">Partners</a><br>
-                                <a href="solutions.html">Contact Us</a><br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="padding-top:20px;">
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-linkedin"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-twitter"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-facebook"> </a>
-                            </span>
-                        </div>
-                        <div class="col-ms-3 col-xs-6">
-                            <span class="appbrand logos" >
-                                    <a href="https://www.linkedin.com/company/xompass" class="fa fa-youtube"> </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div  class="col-xs-12  col-md-3">
-                    <div class="row">
-                        <div class="col-md-3" style="background-color: #5ab032 !important;     height: 300px; position: relative;">
-                            <embed type="image/svg+xml" style="position: absolute; bottom: 85px" src="assets/images/footer/banda.svg"/>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="logo-footer">
-                                <embed type="image/svg+xml" height="30px" width="150px" src="assets/images/footer/logo-footer.svg" style="margin-top: 170px;"/>
-                                <p>© 2014- 2017 Xompass, Inc.</p>
-                                <p class="reserved">All Rights Reserved.</p>
-                            </div>
-                        </div>
+                    <div class="col-xs-6">
+                        <p style="font-size: 12px">© 2014- 2017 Xompass, Inc.</p>
+                        <p style="font-size: 12px">All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- // Footer END -->
     </div>
-    <!-- // Footer END -->
-</div>
-<!-- // Main Container Fluid END -->
+    <!-- // Main Container Fluid END -->
 
-<script>
-    $(function () {
-        var width = $("#intro").width();
+    <!-- JS -->
+    <script src="assets/javascript/script-home.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        $(window).resize(function () {
-            var nw = $("#intro").width();
+        ga('create', 'UA-52745700-1', 'auto');
+        ga('send', 'pageview');
 
-            if (nw < 1280)
-                $("#intro").height(Math.floor(nw / width * 420));
-            else
-                $("#intro").height(420);
-        })
-    })
-</script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-52745700-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<a class="w-toplink active" href="#"><i class="fa fa-angle-up"></i></a>
+    </script>
+    <!-- JS -->
+    <a class="w-toplink active" href="#"><i class="fa fa-angle-up"></i></a>
 </body>
 </html>

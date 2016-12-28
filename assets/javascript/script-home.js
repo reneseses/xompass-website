@@ -38,3 +38,9 @@ $(function () {
 });
 
 
+// mobile menu
+
+$('#menu-icon').click(function(e) {
+    e.preventDefault();
+    $('#mobile-nav').slideToggle("fast");
+  });
