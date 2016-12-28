@@ -6,8 +6,12 @@ body{
     position: absolute !important;
 }
 .navbar-default{
-        background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     border-bottom: 0;
+}
+
+.navbar-black {
+    background-color: #111111 !important;
 }
 
 .navbar-brand{
@@ -32,6 +36,7 @@ h1{
 .background-link-black{
     background-color: #111111 !important;
     color: white !important;
+    border-radius: 2px !important;
 }
 
 .background-link-black:hover{
@@ -41,6 +46,7 @@ h1{
 .background-link{
     background-color: #5ab032 !important;
     color: white !important;
+    border-radius: 2px !important;
 }
 
 .web-link:hover{
@@ -74,6 +80,14 @@ h1{
     background: #111;
 }
 
+.navbar-black .navbar-nav>li>a:hover,.navbar-black .navbar-nav>li>a:focus{
+    color: #fff;
+    background: #302f32;
+}
+
+.drop-margin{
+    margin-top: 3px !important;
+}
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background-color: #222;
 }
