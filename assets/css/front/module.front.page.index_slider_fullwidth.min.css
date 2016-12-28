@@ -745,21 +745,3 @@ html.front.top-full .navbar.main{border: none !important;}
     height: 430px;
     width: 100%;
 }
-
-.web-link{
-	color: #5ab032 !important;
-}
-
-.background-link{
-	background-color: #5ab032 !important;
-	color: white !important;
-}
-
-.web-link:hover{
-	text-decoration: underline !important;
-}
-
-
-.background-link:hover{
-	background-color: rgba(90, 176, 50, 0.73) !important;
-}
