@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'web@xompass.com';
+$from = 'web';
 $sendTo = 'carlos@xompass.com';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
