@@ -40,7 +40,7 @@
   }
 
   //do Captcha check, make sure the submitter is not a robot:)...
-  include_once './vender/securimage/securimage.php';
+  include_once '.../vender/securimage/securimage.php';
   $securimage = new Securimage();
   if (!$securimage->check($_POST['captcha_code'])) {
     errorResponse('Invalid Security Code');
