@@ -106,91 +106,110 @@
                     <div class="row">
                         <div class="col-sm-6"> 
                             <h1>Try Xompass</h1> 
-                              <p>Try Xompass in your environment at no cost. We'll send you brand-new Samsara equipment to test, complete with cellular data connectivity and a fully-functional license for the Samsara cloud service. There's no commitment, and no up-front payment required. If Samsara is not the right fit for you, just send the gear back - even the return shipping is on us.</p>
-                              <p>Qualified customers are typically evaluating products for a business need. If you're interested, please get in touch for details. </p>
+                              <p> Do you have IOT, Analytics implementation as one of your top organizational goals this year?</p>
+                              <p>Are you evaluating several IOT, analytics platforms and want to turn them into real business value and $$?</p>
+                              <p>You have read about the promise of IOT, are you ready to make it work for your organization?</p>
+                              <p>Congratulations! You are in the right place. Xompass offers the only SaaS product that can turn your IOT, analytics dreams to reality. To prove our value to you - we are offering a "no hassle" free trial so that you use Xompass to realize the value today! We have the industry's most advanced interfaces to equipment and have partnered with several technology providers (gateway & cloud) to help you kick start your initiatives.</p>
                             </div>
                         <div class="col-sm-6">
-                            <form id="feedbackForm">
-                                <fieldset>
+                            <form id="contact-form" method="post" action="contact.php" role="form">
+
+                                <div class="messages"></div>
+
+                                <div class="controls">
+
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="name" name="name"
-                                                       placeholder="First Name*">
-                                                <span class="help-block" style="display: none;">Please enter your first name.</span>
+                                                <label for="form_name">Firstname *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="last-name" name="last-name"
-                                                       placeholder="Last Name*">
-                                                <span class="help-block" style="display: none;">Please enter your last name.</span>
+                                                <label for="form_lastname">Lastname *</label>
+                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                       placeholder="Email*">
-                                                <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                                                <label for="form_email">Email *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="phone" name="phone"
-                                                       placeholder="Phone Number*">
-                                                <span class="help-block" style="display: none;">Please enter your phone number.</span>
+                                                <label for="form_phone">Phone</label>
+                                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="company" name="company"
-                                                       placeholder="First Company / Organization Name*">
-                                                <span class="help-block" style="display: none;">Please enter your Company / Organization Name*</span>
+                                                <label for="form_company">Company/Organization Name *</label>
+                                                <input id="form_company" type="text" name="company" class="form-control" placeholder="Please enter your company name *" required="required" data-error="Company name is required.">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="job" name="job"
-                                                       placeholder="Job Title*">
-                                                <span class="help-block" style="display: none;">Please enter your job title.</span>
+                                                <label for="form_job">Job Title</label>
+                                                <input id="form_job" type="text" name="job" class="form-control" placeholder="Please enter your job title">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <select class="selectpicker" multiple data-max-options="1" title="Organization Size*" data-width="100%">
-                                                  <option>1 - 49</option>
-                                                  <option>50 - 99</option>
-                                                  <option>100 - 499 </option>
-                                                  <option>500+ </option>
+                                                <label for="form_organization_size">Organization Size *</label>
+                                                <select  id="form_organization_size" multiple data-max-options="1"  name="organization_size" class="form-control selectpicker" required="required" data-error="Organization size is required.">
+                                                    <option>1 - 49</option>
+                                                    <option>50 - 99</option>
+                                                    <option>100 - 499 </option>
+                                                    <option>500+ </option>
                                                 </select>
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <select class="selectpicker" multiple data-max-options="1" title="Industry*" data-width="100%">
-                                                  <option>Agricuture</option>
-                                                  <option>Biotechnology</option>
-                                                  <option>Construction</option>
-                                                  <option>Education</option>
-                                                  <option>Energy</option>
-                                                  <option>Field Services</option>
-                                                  <option>Food - Beverage</option>
-                                                  <option>Government</option>
-                                                  <option>Healthcare</option>
-                                                  <option>Hospitality</option>
-                                                  <option>Manufacturing</option>
-                                                  <option>Professional Services</option>
-                                                  <option>Retail</option>
-                                                  <option>Technology</option>
-                                                  <option>Transportation</option>
-                                                  <option>VAR - System Integrator</option>
+                                                <label for="form_industry">Industry *</label>
+                                                <select  id="form_industry" multiple data-max-options="1"  name="industry" class="form-control selectpicker" required="required" data-error="Industry is required.">
+                                                    <option>Agricuture</option>
+                                                    <option>Biotechnology</option>
+                                                    <option>Construction</option>
+                                                    <option>Education</option>
+                                                    <option>Energy</option>
+                                                    <option>Field Services</option>
+                                                    <option>Food - Beverage</option>
+                                                    <option>Government</option>
+                                                    <option>Healthcare</option>
+                                                    <option>Hospitality</option>
+                                                    <option>Manufacturing</option>
+                                                    <option>Professional Services</option>
+                                                    <option>Retail</option>
+                                                    <option>Technology</option>
+                                                    <option>Transportation</option>
+                                                    <option>VAR - System Integrator</option>
                                                 </select>
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <select class="selectpicker" multiple data-max-options="1" title="Country*" data-width="100%" data-live-search="true">
-                                                  <option value="4">Afghanistan</option>
+                                                <label for="form_country">Country *</label>
+                                                <select  id="form_country" multiple data-max-options="1"  name="country" class="form-control selectpicker" required="required" data-error="Country is required." data-live-search="true">
+                                                    <option value="4">Afghanistan</option>
                                                     <option value="248">Åland Islands</option>
                                                     <option value="8">Albania</option>
                                                     <option value="12">Algeria</option>
@@ -440,40 +459,28 @@
                                                     <option value="894">Zambia</option>
                                                     <option value="716">Zimbabwe</option>
                                                 </select>
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" name="message" rows="7"
-                                                  placeholder="Please tell us about your interest in Xompass"></textarea>
-                                        <span class="help-block" style="display: none;">Please enter a message.</span>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-md-6 text-center">
-                                                <img id="captcha" src="../assets/mail/vender/securimage/securimage_show.php" style="height: 74px;"
-                                                     alt="CAPTCHA Image"/>
-                                                <a href="#" onclick="document.getElementById('captcha').src = '../assets/mail/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-lg background-link" style="font-size: 10px !important; margin-top: 10px !important;">Show a Different Image</a>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" class="form-control" name="captcha_code" id="captcha_code" style="margin-top: 20px" placeholder="Please enter the code"/>
-                                                <span class="help-block" style="display: none;">Please enter the code.</span>
-                                                <span class="help-block" style="display: none;">Please enter a the security code.</span>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">Message *</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn background-link btn-send" value="Submit" style="width: 100%">
+                                        </div>
                                     </div>
+                                </div>
 
-                                    <div>
-                                        <button type="submit" id="feedbackSubmit" class="btn btn-lg background-link-black" style="font-size: 15px !important; width: 100% !important">Submit</button>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </fieldset>
                             </form>
+
+
                         </div>
-                        <?php
-                        if($sendit){echo "Mensaje enviado correctamente";}
-                        else{ echo "Email failed to send";}?>
                     </div>
                 </div>
             </div>
@@ -580,6 +587,8 @@
 
     <!-- JS -->
     <script src="assets/javascript/script-home.js"></script>
+    <script src="assets/javascript/validator.js"></script>
+    <script src="assets/javascript/contact.js"></script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
