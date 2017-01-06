@@ -1,2 +1,0 @@
-# xompass-website
-Xompass Website
