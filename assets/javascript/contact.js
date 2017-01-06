@@ -4,7 +4,7 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "./mail/contact.php";
+            var url = "assets/mail/contact.php";
 
             $.ajax({
                 type: "POST",
