@@ -27,12 +27,63 @@ body{
 
     margin-top: 70px !important;
     margin-bottom: 70px !important;
+        margin-left: 15px !important;
+    margin-right: 15px !important;
 }
 
 #map{
     height: 350px;
 }
 
+.keyline-green{
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: rgba(90, 176, 50, 0.73);
+
+
+}
+
+.p-style{
+    line-height: 0.7em;
+    text-align: justify !important;
+}
+
+.p-style-2{
+    line-height: 1.4em;
+    text-align: justify !important;
+}
+
+.p-style-3{
+    line-height: 1.6em;
+    text-align: justify !important;
+    font-size: 18px !important;
+    padding: 0 15px 0 0px;
+}
+
+.p-style-4{
+    line-height: 1.6em;
+    text-align: justify !important;
+    font-size: 18px !important;
+    padding: 0 0px 0 15px;
+}
+
+.h2-style{
+    margin-bottom: 1.67em !important;
+    margin-top: 0.67em !important;
+}
+
+.h2-style-2{
+    margin-bottom: 1.67em !important;
+    margin-top: 0em !important;
+}
+
+.row-contact{
+    margin-top: 3.67em !important;
+}
 h1{
     margin-top: 0 !important;
     margin-bottom: .67em !important;
@@ -387,6 +438,7 @@ h1{
     margin-left: 0;
     margin-right: 0;
 }
+
 }
 
 @media (min-width: 770px) and (max-width: 1000px) {
@@ -437,6 +489,22 @@ h1{
 }
 @media (max-width: 767px) {
 
+h1{
+      font-size: 26px !important;
+}
+.p-style-3{
+    line-height: 1.6em;
+    text-align: justify !important;
+    font-size: 18px !important;
+    padding: 0 0px 0 0px !important;
+}
+
+.p-style-4{
+    line-height: 1.6em;
+    text-align: justify !important;
+    font-size: 18px !important;
+    padding: 0 0px 0 0px !important;
+}
     .section-padding {
     padding-bottom: 60px !important;
     padding-top: 60px !important;
@@ -1192,4 +1260,43 @@ h1{
   .hidden-ms {
     display: none !important;
   }
+}
+
+@media (min-width: 1200px){}
+  .container {
+      width: 1080px !important;
+  }
+
+
+.gmnoprint:not(.gm-bundled-control) {
+    display: none;
+}
+
+.gm-bundled-control .gmnoprint {
+    display: block;
+}
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+a[href^="https://www.google.com/maps"]{display:none !important}
+
+#prabhu_team{
+    background-image: url(../images/team/prabhu_normal.jpg);
+    background-repeat: no-repeat;
+    height: 259px;
+
+}
+
+/*
+#prabhu_team:hover{
+      background-image: url(../images/team/prabhu_normal.jpg);
+
+}*/
+
+.name-team{
+  position: relative;
+    top: 121px;
+    background-color: rgba(255, 255, 255, 0.58);
+    color: #111111;
+    width: 266px !important;
+    left: -8px;
 }

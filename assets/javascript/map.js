@@ -115,8 +115,14 @@ var map;
             zoom: 15,
             center: new google.maps.LatLng(37.7227516, -122.1629992),
             styles: stylesArray,
-            disableDefaultUI: true
-            };
+            disableDefaultUI: true,
+            zoomControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            scrollwheel: false,
+        };
         
         map = new google.maps.Map(document.getElementById('map'), mapOptions);
         var marker = new google.maps.Marker({
