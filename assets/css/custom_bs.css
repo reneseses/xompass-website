@@ -53,7 +53,7 @@ body{
 }
 
 .p-style-2{
-    line-height: 1.4em;
+    line-height: 1.4em !important;
     text-align: justify !important;
 }
 
@@ -145,6 +145,11 @@ h1{
     background: #302f32;
 }
 
+.navbar-black .navbar-nav .active{
+    color: #fff;
+    background: #302f32;
+}
+
 .drop-margin{
     margin-top: 3px !important;
 }
@@ -154,6 +159,10 @@ h1{
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     border: 0;
+}
+
+#sub-nav{
+      border-bottom: solid 1px #cccccc;
 }
 #sub-nav ul {
     margin-left: -22px;
@@ -253,6 +262,180 @@ h1{
 #menu-icon img {
     margin-top: 27px;
 }
+  .microsoft{
+  background-image: url(../images/partners/ms_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .list{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 40px;
+    text-align: justify;
+}
+  .list-b{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 40px;
+    text-align: justify;
+  }
+
+  .col-left-top{
+        border-right: solid 1px #b3b3b3;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .col-left-bottom{
+        border-right: solid 1px #b3b3b3;
+  }
+
+  .col-center{
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .col-right-bottom{
+        border-left: solid 1px #b3b3b3;
+  }
+
+  .col-right-top{
+        border-left: solid 1px #b3b3b3;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .microsoft:hover{
+  background-image: url(../images/partners/ms.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%
+  }
+
+  .osisoft{
+  background-image: url(../images/partners/osi_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .osisoft:hover{
+  background-image: url(../images/partners/osi.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .intel{
+  background-image: url(../images/partners/intel_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .intel:hover{
+  background-image: url(../images/partners/intel.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .cisco{
+  background-image: url(../images/partners/cisco_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .cisco:hover{
+  background-image: url(../images/partners/cisco.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .prosoft{
+  background-image: url(../images/partners/prosoft_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .prosoft:hover{
+  background-image: url(../images/partners/prosoft.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .cctval{
+  background-image: url(../images/partners/cctval_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .cctval:hover{
+    background-image: url(../images/partners/cctval.png);
+      display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.stem{
+  background-image: url(../images/partners/stem_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .stem:hover{
+    background-image: url(../images/partners/stem.png);
+  }
+
+  .pointfar{
+  background-image: url(../images/partners/pointfar_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  .pointfar:hover{
+    background-image: url(../images/partners/pointfar.png);
+  }
+
+
+.partner-logo img{
+      width: 100% !important;
+      padding-bottom: 20px;
+      padding-top: 20px;
+}
+
+.partners-row{
+    margin-bottom: 40px !important;
+}
 
 @media (min-width: 770px){
 .visible-m {
@@ -299,7 +482,8 @@ h1{
   #sub-nav ul {
     margin-left: 0;
     margin-right: 0;
-        padding-top: 20px; }
+        padding-top: 15px;
+    padding-bottom: 15px; }
 
 
     .black-link li > a{
@@ -1262,10 +1446,10 @@ h1{
   }
 }
 
-@media (min-width: 1200px){}
+@media (min-width: 1200px){
   .container {
-      width: 1080px !important;
-  }
+      width: 1080px;
+  }}
 
 
 .gmnoprint:not(.gm-bundled-control) {
