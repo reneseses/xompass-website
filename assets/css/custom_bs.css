@@ -47,6 +47,9 @@ body{
 
 }
 
+.h5-style{
+  margin-bottom: 25px;
+}
 .p-style{
     line-height: 0.7em;
     text-align: justify !important;
@@ -81,6 +84,14 @@ body{
     margin-top: 0em !important;
 }
 
+.h2-style-3{
+    margin-top: 0em !important;
+}
+
+.h4-style{
+    margin-top: 0em !important;
+    margin-bottom: 1.67em !important;
+}
 .row-contact{
     margin-top: 3.67em !important;
 }
@@ -220,35 +231,6 @@ h1{
         background: #000000;
     }}
 
-@media (min-width: 550px) {
-  #main-nav > ul > li {
-    position: relative;
-    display: inline-block;
-     }
-  #main-nav .nav-drop {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    z-index: 1;
-    left: 0px !important;
-    width: 150px;
-    padding: 15px 10px 5px 15px;
-    background: #302f32;
-    border-radius: 4px;
-    font-size: 1.6rem;
-    transition: opacity .05s .05s, visibility 0s .2s; }
-    #main-nav .nav-drop a {
-      display: block;
-      color: #fff; }
-  #main-nav > ul > li:hover .nav-drop {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .05s 0s, visibility 0s 0s; }
-  #mobile-nav {
-    display: none; }
-  #sub-nav ul {
-    margin-left: 0;
-    margin-right: 0; } }
 
 #menu-icon {
     position: absolute;
@@ -262,14 +244,7 @@ h1{
 #menu-icon img {
     margin-top: 27px;
 }
-  .microsoft{
-  background-image: url(../images/partners/ms_bw.png);
-  display: block;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
 
-  }
 
   .list{
     list-style-type: circle;
@@ -284,35 +259,61 @@ h1{
     text-align: justify;
   }
 
-  .col-left-top{
+  .col-left-ms{
         border-right: solid 1px #b3b3b3;
         border-bottom: solid 1px #b3b3b3;
   }
 
-  .col-left-bottom{
+  .col-left-osi{
+        border-right: solid 1px #b3b3b3;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  
+
+  .col-center-cctval{
         border-right: solid 1px #b3b3b3;
   }
 
-  .col-center{
+  .col-left-prosoft{
+        border-right: solid 1px #b3b3b3;
+        border-bottom: solid 1px #ffffff;
+  }
+.col-center-intel{
         border-bottom: solid 1px #b3b3b3;
+        border-right: solid 1px #b3b3b3;
   }
 
-  .col-right-bottom{
-        border-left: solid 1px #b3b3b3;
-  }
 
-  .col-right-top{
-        border-left: solid 1px #b3b3b3;
+  .col-right-cisco{
+        border-left: solid 1px #ffffff;
         border-bottom: solid 1px #b3b3b3;
+        border-right: solid 1px #ffffff;
   }
 
+  .col-right-stem{
+        border-right: solid 1px #b3b3b3;
+  }
+
+
+
+  .microsoft{
+  background-image: url(../images/partners/ms_bw.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+  }
   .microsoft:hover{
   background-image: url(../images/partners/ms.png);
   display: block;
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%
+    background-size:contain;
+
   }
 
   .osisoft{
@@ -321,6 +322,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
@@ -330,6 +333,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
   }
 
   .intel{
@@ -338,6 +343,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
@@ -347,6 +354,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
   }
 
   .cisco{
@@ -355,6 +364,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
@@ -364,6 +375,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
   }
 
   .prosoft{
@@ -372,6 +385,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
@@ -381,6 +396,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
   }
 
   .cctval{
@@ -389,6 +406,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
@@ -398,6 +417,8 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
   }
 
 .stem{
@@ -406,11 +427,19 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+    background-size:contain;
+
 
   }
 
   .stem:hover{
     background-image: url(../images/partners/stem.png);
+    display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+      background-size:contain;
+
   }
 
   .pointfar{
@@ -419,13 +448,264 @@ h1{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size:contain;
 
   }
 
   .pointfar:hover{
     background-image: url(../images/partners/pointfar.png);
+        display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+      background-size:contain;
   }
 
+  .steve-toteda{
+  background-image: url(../images/advisory/steve.jpg);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-bottom: 30px;
+
+  }
+
+  .chris-yeh{
+  background-image: url(../images/advisory/chris.jpg);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-bottom: 30px;
+
+  }
+
+  .peter-martin{
+  background-image: url(../images/advisory/peter.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-bottom: 30px;
+  }
+
+
+.patrick-kennedy{
+  background-image: url(../images/advisory/patrick.png);
+  display: block;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-bottom: 30px;
+  }
+
+
+  .prabhu{
+  background-image: url(../images/team/prabhu.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .francisco{
+  background-image: url(../images/team/francisco.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .carlosm{
+  background-image: url(../images/team/carlosm.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .werner{
+  background-image: url(../images/team/werner.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .carlos{
+  background-image: url(../images/team/carlos.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .andres{
+  background-image: url(../images/team/andres.png);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .rene{
+  background-image: url(../images/team/rene.jpg);
+  display: block;
+  min-height:275px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%; 
+  }
+
+  .whitepaper-min-1{
+  background-image: url(../images/whitepapers/whitepaper-min-1.png);
+  display: block;
+  min-height:290px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  width:100%;
+  }
+
+
+
+/* Solutions Overview */
+
+#solutions-water{
+  background-image: url(../images/solutions/water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+#solutions-water:hover{
+  background-image: url(../images/solutions/water-normal.jpg);
+}
+
+#solutions-mining{
+  background-image: url(../images/solutions/mining.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+}
+
+#solutions-mining:hover{
+  background-image: url(../images/solutions/mining-normal.jpg);
+}
+
+#solutions-power{
+  background-image: url(../images/solutions/power.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+#solutions-power:hover{
+  background-image: url(../images/solutions/power-normal.jpg);
+}
+
+#solutions-datacenter{
+  background-image: url(../images/solutions/datacenter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+#solutions-datacenter:hover{
+  background-image: url(../images/solutions/datacenter-normal.jpg);
+}
+
+#solutions-fiber{
+  background-image: url(../images/solutions/fiber.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+#solutions-fiber:hover{
+  background-image: url(../images/solutions/fiber-normal.jpg);
+
+}
+
+ul.split {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.split {
+  list-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+#solutions-landing-grid li {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#solutions-landing-grid li a {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: block;
+  text-decoration: none;
+  color: white !important;
+}
+
+
+.split-item, ul.split > li {
+  position: relative;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.split.xs-1 .split-item, ul.split.xs-1 > li {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+/* Overview Solutions*/
+
+  .col-zero-padding{
+    padding: 0!important;
+  }
+  .row-zero-margin{
+        margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+
+  .zero-margin{
+        margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
 .partner-logo img{
       width: 100% !important;
@@ -437,10 +717,50 @@ h1{
     margin-bottom: 40px !important;
 }
 
-@media (min-width: 770px){
-.visible-m {
-    display: none !important;
-}}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+
+}
+.white-height{
+  min-height: 326px;
+  border-bottom: solid 1px #cccccc;
+}
+
+.white-height-green{
+  min-height: 326px;
+  border-bottom: solid 3px #5ab032;
+}
+.h6-style{
+  font-weight: 400;
+}
+
+.link-whitepaper a{
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #5ab032;
+    font-weight: bold;
+    font-size: 18px;
+}
+.team-info{
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 #mobile-nav {
   position: absolute;
   z-index: 100;
@@ -476,7 +796,9 @@ h1{
   #main-nav > ul > li:hover .nav-drop {
     visibility: visible;
     opacity: 1;
-    transition: opacity .05s 0s, visibility 0s 0s; }
+    transition: opacity .05s 0s, visibility 0s 0s; 
+    font-size: 13px !important;
+  }
   #mobile-nav {
     display: none; }
   #sub-nav ul {
@@ -659,19 +981,54 @@ h1{
 
 }
 
-@media screen and (max-width: 767px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 768px) {
-}
+
 @media (max-width: 767px) {
+.white-height{
+  min-height: 0px;
+  border-bottom: solid 1px #ffffff;
 }
-/*@media (min-width: 768px) {
-}*/
-@media (min-width: 768px) {
+
+.white-height-green{
+  min-height: 300px;
+  border-bottom: solid 1px #cccccc;
 }
-@media (max-width: 767px) {
+
+.whitepaper-min-1{
+  min-height:250px;
+  background-position: center;
+  }
+
+
+.col-left-ms{
+        border-right: solid 1px #b3b3b3;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .col-left-osi{
+        border-right: solid 1px #ffffff;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .col-center-intel{
+        border-bottom: solid 1px #b3b3b3;
+        border-right: solid 1px #b3b3b3;
+  }
+
+  .col-right-cisco{
+        border-left: solid 1px #ffffff;
+        border-bottom: solid 1px #b3b3b3;
+        border-right: solid 1px #ffffff;
+  }
+
+  .col-center-cctval{
+        border-right: solid 1px #ffffff;
+        border-bottom: solid 1px #b3b3b3;
+  }
+
+  .col-left-prosoft{
+        border-right: solid 1px #b3b3b3;
+        border-bottom: solid 1px #b3b3b3;
+  }
 
 h1{
       font-size: 26px !important;
@@ -1469,12 +1826,49 @@ a[href^="https://www.google.com/maps"]{display:none !important}
     height: 259px;
 
 }
+@media (min-width: 770px){
+.visible-m {
+    display: none !important;}
 
-/*
-#prabhu_team:hover{
-      background-image: url(../images/team/prabhu_normal.jpg);
+    .split.md-all .split-item, ul.split.md-all > li {
+     -ms-flex-preferred-size: 0;
+        flex-basis: 0 !important; } 
+}
 
-}*/
+@media (min-width: 550px) {
+  #main-nav > ul > li {
+    position: relative;
+    display: inline-block;
+     }
+  #main-nav .nav-drop {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    left: 0px !important;
+    width: 150px;
+    padding: 15px 10px 5px 15px;
+    background: #302f32;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    transition: opacity .05s .05s, visibility 0s .2s; }
+    #main-nav .nav-drop a {
+      display: block;
+      color: #fff; }
+  #main-nav > ul > li:hover .nav-drop {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .05s 0s, visibility 0s 0s; }
+  #mobile-nav {
+    display: none; }
+  #sub-nav ul {
+    margin-left: 0;
+    margin-right: 0; } 
+    .split.sm-2 .split-item, ul.split.sm-2 > li {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+}
 
 .name-team{
   position: relative;
