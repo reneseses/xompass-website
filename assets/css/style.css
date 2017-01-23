@@ -56,15 +56,6 @@
     width: 100%;
 }
 
-#footer .appbrand {
-    position: static !important;
-}
-
-#footer .appbrand a {
-    color: #5ab032 !important;
-    font-size: 40px;
-    padding: 8%;
-}
 
 .contact-map{
     height: 450px;
@@ -141,9 +132,7 @@
     color: #111
 }
 
-.contact-item:hover .contact-circle {
-    background-color: #5ab032
-}
+
 
 .contact-item:hover .contact-circle .fa {
     font-size: 420% !important;
